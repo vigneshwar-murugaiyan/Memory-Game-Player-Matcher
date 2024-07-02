@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 150px); /* Increase the size of the grid cells */
+    grid-template-rows: repeat(3, 150px); /* Increase the size of the grid cells */
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+img {
+    width: 150px; /* Increase the size of the images */
+    height: 150px; /* Increase the size of the images */
+    cursor: pointer;
+}
